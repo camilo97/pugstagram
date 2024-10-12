@@ -8,10 +8,11 @@
 
     
     let data = {};
-    const API = "https://run.mocky.io/v3/d9788312-cd7d-44d7-898c-921c0f5b0a87";
+    const API = "https://run.mocky.io/v3/4b2a4f73-f72c-46a7-81b4-853126504feb";
     onMount(async () => {
         const response = await fetch(API)
         data = await response.json();
+        console.log(data)
     }); 
 
 </script>
